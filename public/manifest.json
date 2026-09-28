@@ -1,0 +1,56 @@
+{
+  "name": "EDDEX",
+  "short_name": "EDDEX",
+  "description": "EDDEX (Eddy Express) — Transport pasaje ak machandiz atravè Ayiti. Rapid, sekir, san w pa bezwen bay nimewo w.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0E0E12",
+  "theme_color": "#E30613",
+  "categories": ["transport", "travel", "business"],
+  "lang": "ht",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mande Kous",
+      "short_name": "Kliyan",
+      "description": "Mande yon kous",
+      "url": "/?role=customer",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Chofè",
+      "short_name": "Chofè",
+      "description": "Ekran chofè",
+      "url": "/?role=driver",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
